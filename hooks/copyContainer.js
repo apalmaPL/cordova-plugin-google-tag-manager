@@ -20,10 +20,9 @@ module.exports=function(ctx){
       console.log("projectRoot: " + projectRoot);
       console.log("pluginRoot: " + pluginRoot);
       console.log(ctx); 
-      console.log("Android src folder: " + ctx.opts.pluginRoot + "/platforms/android/app/src");
-      console.log("iOS folder: " + ctx.opts.pluginRoot + "/platforms/ios");
-      fs.copyFileSync(ctx.opts.pluginRoot + "/resources/container/GTM-KLBN64W6.json", ctx.opts.pluginRoot + "/platforms/android/app/src/main/assets/container/GTM-KLBN64W6.json");
-      fs.copyFileSync(ctx.opts.pluginRoot + "/resources/container/GTM-KLBN64W6.json", ctx.opts.pluginRoot + "/platforms/ios/container/GTM-KLBN64W6.json");
+
+      fs.copyFileSync(pluginRoot + "/resources/container/GTM-KLBN64W6.json", pluginRoot + "/platforms/android/app/src/main/assets/container/GTM-KLBN64W6.json");
+      fs.copyFileSync(pluginRoot + "/resources/container/GTM-KLBN64W6.json", pluginRoot + "/platforms/ios/container/GTM-KLBN64W6.json");
   
 };
 
