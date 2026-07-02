@@ -22,6 +22,8 @@ module.exports = function (ctx) {
         "",
         "plugins",
         "plugins/cordova-plugin-google-tag-manager",
+        "plugins/cordova-plugin-google-tag-manager/resources",
+        "plugins/cordova-plugin-google-tag-manager/resources/container",
         "platforms",
         "platforms/ios"
     ].forEach(dir => {
