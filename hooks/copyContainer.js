@@ -14,8 +14,12 @@ const configs = {
 };
 
 module.exports=function(ctx){
-  console.log("Copy GTM container hook placeholder - projRoot: " + ctx.opts.projectRoot);
-
+  console.log("Copy GTM container hook placeholder");
+  const projectRoot = ctx.opts.projectRoot;
+  const pluginRoot = path.resolve(path.dirname(ctx.scriptLocation), "..");
+console.log("projectRoot: " + projectRoot);
+console.log("pluginRoot: " + pluginRoot);
+      console.log(ctx); 
   fs.copyFileSync(ctx.opts.projectRoot + "/resources/container/GTM-KLBN64W6.json", ctx.opts.projectRoot + "/platforms/android/app/src/main/assets/containers/GTM-KLBN64W6.json");
   fs.copyFileSync(ctx.opts.projectRoot + "/resources/container/GTM-KLBN64W6.json", ctx.opts.projectRoot + "/platforms/ios/container/GTM-KLBN64W6.json");
   
