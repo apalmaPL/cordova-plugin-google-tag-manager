@@ -16,11 +16,7 @@
         default="GTM-KLBN64W6.json" />
 
     <platform name="android">
-        <framework
-            src="com.google.android.gms:play-services-tagmanager:18.3.0" />
-        <source-file
-            src="resources/container/.gitkeep"
-            target-dir="app/src/main/assets/containers" />
+        <framework src="com.google.android.gms:play-services-tagmanager:18.3.0" />
     </platform>
 
     <platform name="ios" package="swift">
@@ -36,5 +32,7 @@
         </podspec>
     </platform>
 
-    <hook type="after_prepare" src="hooks/after_prepare.js" />
+    <hook
+        type="after_prepare"
+        src="hooks/after_prepare.js" />
 </plugin>
