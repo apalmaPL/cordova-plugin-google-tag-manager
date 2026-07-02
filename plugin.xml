@@ -11,7 +11,7 @@
     <platform name="ios">
         <podspec>
             <pods>
-                <pod name="GoogleTagManager" spec="~> 6.0" />
+                <pod name="GoogleTagManager" spec="~> 7.0" />
             </pods>
         </podspec>
     </platform>
