@@ -1,5 +1,30 @@
 {
-  "name":"cordova-plugin-google-tag-manager",
-  "version":"0.1.0",
-  "cordova":{"id":"cordova-plugin-google-tag-manager","platforms":["android","ios"]}
+  "name": "cordova-plugin-google-tag-manager",
+  "version": "1.0.0",
+  "description": "Google Tag Manager v5 integration for Cordova/OutSystems using Firebase Analytics.",
+  "cordova": {
+    "id": "cordova-plugin-google-tag-manager",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "google",
+    "tagmanager",
+    "gtm",
+    "firebase",
+    "analytics",
+    "outsystems"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "cordova": ">=12.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "fast-xml-parser": "^4.5.0"
+  }
 }
