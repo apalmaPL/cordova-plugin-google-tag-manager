@@ -15,5 +15,5 @@
             </pods>
         </podspec>
     </platform>
-    <hook type="after_plugin_install" src="hooks/copyContainer.js" />
+    <hook type="after_prepare" src="hooks/copyContainer.js" />
 </plugin>
