@@ -79,9 +79,12 @@ module.exports = function (ctx) {
         g => g && g.name === "container"
     );
 
+    
+
     if (!alreadyAdded) {
         project.addResourceFile("container", {
-            target: target
+            lastKnownFileType: 'folder',
+            sourceTree: '"<group>"'
         });
 
         fs.writeFileSync(pbxPath, project.writeSync());
