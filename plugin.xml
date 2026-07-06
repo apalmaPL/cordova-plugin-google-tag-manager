@@ -16,5 +16,5 @@
         </podspec>
         <resource-file src="resources/container/GTM-KLBN64W6.json" target="./container/GTM-KLBN64W6.json" />
     </platform>
-    <hook type="after_prepare" src="hooks/copyContainer.js" />
+    <!--<hook type="after_prepare" src="hooks/copyContainer.js" />-->
 </plugin>
