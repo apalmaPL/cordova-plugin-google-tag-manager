@@ -6,7 +6,7 @@
         <clobbers target="TagManager" />
     </js-module>
     <platform name="android">
-        <!--<framework src="com.google.android.gms:play-services-tagmanager:18.1.1" />-->
+        <framework src="com.google.android.gms:play-services-tagmanager:18.1.1" />
         <!--<resource-file src="resources/container/GTM-KLBN64W6.json" target="src/main/assets/container/GTM-KLBN64W6.json" />-->
     </platform>
     <platform name="ios">
