@@ -9,10 +9,11 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="TagManager">
                 <param name="android-package" value="com.productleague.TagManagerPlugin"/>
+                <param name="onload" value="true" />
             </feature>
         </config-file>
         <framework src="com.google.android.gms:play-services-tagmanager:18.1.1" />
-        <resource-file src="resources/container/GTM-KLBN64W6.json" target="src/main/assets/container/GTM-KLBN64W6.json" />
+        <resource-file src="resources/container/GTM-KLBN64W6.json" target="src/main/assets/containers/GTM-KLBN64W6.json" />
     </platform>
     <platform name="ios">
         <podspec>
