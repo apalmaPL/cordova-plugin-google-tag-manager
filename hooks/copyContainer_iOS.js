@@ -37,6 +37,7 @@ module.exports = function (ctx) {
         pluginRoot,
         "resources",
         "container",
+        "ios",
         "GTM-KLBN64W6.json"
     );
 
